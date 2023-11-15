@@ -8,7 +8,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Color(0xFFd845f6), // 배경색 핵사코드로 지정
       body: Column(
-        // 중앙 이미지와, 아래 프로그래스바 가로 2단 구성을 위한 컬럼 위젯 설정
+        // 중앙 이미지와, 아래 프로그래스바 세로 2단 구성을 위한 컬럼 위젯 설정
         mainAxisAlignment: MainAxisAlignment.center, // 컬럼의 수직 정렬은 가운데 지정
         children: [
           // 하위 위젯 지정
